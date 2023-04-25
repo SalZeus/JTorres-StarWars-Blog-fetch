@@ -12,8 +12,9 @@ export const Home = () => {
 		actions.fetchStarWars("people")
 		actions.fetchStarWars("vehicles")
 	},[]);
-
-		
-
-	
+	return(
+		<div className="Container">
+			
+		</div>
+	)
 };
